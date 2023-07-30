@@ -1,4 +1,4 @@
-package com.tan.frap.entity;
+package frapp.parent.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

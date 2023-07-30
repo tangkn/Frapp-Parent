@@ -1,4 +1,4 @@
-package com.tan.frap.dto;
+package frapp.parent.dto;
 
 import lombok.Getter;
 import lombok.Setter;

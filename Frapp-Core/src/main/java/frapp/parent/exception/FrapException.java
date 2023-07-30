@@ -1,4 +1,4 @@
-package com.tan.frap.exception;
+package frapp.parent.exception;
 
 public class FrapException extends Exception{
 

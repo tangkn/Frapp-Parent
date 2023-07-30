@@ -1,4 +1,4 @@
-package com.tan.frap.entity;
+package frapp.parent.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.sql.Timestamp;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
@@ -26,14 +27,14 @@ public class User {
     private String email;
     private String password;
     private Timestamp createdTime;
-    private Timestamp updatedTime;
+    private boolean isDeleted;
 
     @ManyToMany(cascade = { CascadeType.ALL })
     @JoinTable(
-            name = "user_hobby",
+            name = "r_user_hobby",
             joinColumns = { @JoinColumn(name = "user_id") },
             inverseJoinColumns = { @JoinColumn(name = "hobby_id") }
     )
-    private Set<Hobby> hobbies = new HashSet<>();
+    private List<Hobby> hobbies;
 
 }

@@ -1,7 +1,6 @@
-package com.tan.frap.common;
+package frapp.parent.common;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.tan.frap.dto.UserDTO;
 import org.springframework.http.HttpStatus;
 
 public interface RestResponseUtils {

@@ -1,6 +1,14 @@
-package org.frapp.core.service;
+package frapp.parent.service;
 
 
+
+import frapp.parent.dto.HobbyDTO;
+import frapp.parent.dto.UserDTO;
+import frapp.parent.entity.Hobby;
+import frapp.parent.entity.User;
+import frapp.parent.repository.UserRepository;
+import lombok.NonNull;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,7 +18,7 @@ import java.util.UUID;
 public class UserService {
 
 
-    private com.tan.frap.repository.UserRepository userRepository;
+    private UserRepository userRepository;
 
     public UserDTO create(UserDTO userDTO) {
         var user = convertDTOtoUser(userDTO);
@@ -18,8 +26,7 @@ public class UserService {
         return convertUserToDTO(user);
     }
 
-    private User save(@Nonnull User user) {
-
+    private User save(@NonNull User user) {
         return userRepository.save(user);
     }
 
