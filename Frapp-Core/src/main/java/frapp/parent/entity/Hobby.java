@@ -24,6 +24,11 @@ public class Hobby {
     @Column(name = "hobby_description")
     private String hobbyDescription;
 
-    @ManyToMany(mappedBy = "hobbies")
-    private Set<User> users = new HashSet<>();
+    @ManyToMany
+    @JoinTable(
+            name = "user_hobby",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "hobby_id")
+    )
+    private List<Hobby> hobbies;
 }

@@ -7,6 +7,7 @@ import frapp.parent.dto.UserDTO;
 import frapp.parent.entity.Hobby;
 import frapp.parent.entity.User;
 import frapp.parent.repository.UserRepository;
+import lombok.AllArgsConstructor;
 import lombok.NonNull;
 import org.springframework.stereotype.Service;
 
@@ -46,7 +47,6 @@ public class UserService {
         userDTO.setEmail(user.getEmail());
         userDTO.setPassword(user.getPassword());
         userDTO.setCreatedTime(user.getCreatedTime());
-        userDTO.setUpdatedTime(user.getUpdatedTime());
 
         Set<HobbyDTO> hobbiesDTO = new HashSet<>();
         for (Hobby hobby : user.getHobbies()) {
@@ -68,7 +68,7 @@ public class UserService {
         user.setLastName(userDTO.getLastName());
         user.setEmail(userDTO.getEmail());
         user.setCreatedTime(userDTO.getCreatedTime());
-        user.setUpdatedTime(userDTO.getUpdatedTime());
+        user.setGender(user.getGender());
 
         Set<Hobby> hobbies = new HashSet<>();
         for (HobbyDTO hobbyDTO : userDTO.getHobbies()) {

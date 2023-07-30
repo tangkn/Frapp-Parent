@@ -17,7 +17,7 @@ public class UserDTO {
     private String email;
     private String password;
     private Timestamp createdTime;
-    private Timestamp updatedTime;
+    private String gender;
     private Set<HobbyDTO> hobbies;
 
 
