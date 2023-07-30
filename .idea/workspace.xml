@@ -4,32 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/FrappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/FrappApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/common/RestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/common/RestResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/common/RestResponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/common/RestResponseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/dto/HobbyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/dto/HobbyDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/FriendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/FriendRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Hobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Hobby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/exception/FrapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/exception/FrapException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/exception/FrapExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/exception/FrapExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/HobbyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/HobbyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/frapp-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frapp-ui/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +113,19 @@
       <option name="presentableId" value="Default" />
       <updated>1687629771724</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1690743092814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690743092814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
