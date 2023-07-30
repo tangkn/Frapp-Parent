@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Hobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Hobby.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" afterDir="false" />
     </list>
