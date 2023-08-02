@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <JDBC name="databaseAppender" tableName="t_logs">
+            <ConnectionFactory class="org.apache.logging.log4j.core.appender.db.jdbc.DriverManagerConnectionFactory">
+                <Property name="driverClassName">org.postgresql.Driver</Property>
+                <Property name="url">jdbc:postgresql://localhost:5432/frappdb</Property>
+                <Property name="username">postgres</Property>
+                <Property name="password">12345</Property>
+            </ConnectionFactory>
+
+            <Column name="eventDate" isEventTimestamp="true" />
+            <Column name="level" literal="%level" />
+            <Column name="logger" literal="%logger" />
+            <Column name="message" literal="%message" />
+        </JDBC>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="databaseAppender" />
+        </Root>
+    </Loggers>
+</Configuration>

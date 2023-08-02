@@ -77,7 +77,7 @@ public class UserService {
             hobby.setHobbyName(hobbyDTO.getHobbyName());
             hobbies.add(hobby);
         }
-        user.setHobbies(hobbies);
+        //user.setHobbies(hobbies);
 
         return user;
     }
