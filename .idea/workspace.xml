@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/resources/db/changelog/core.changelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/resources/db/changelog/db.changelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment="added liquibase and log4j">
+      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/HomeRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/UserInfoUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/UserInfoUserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/HobbyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/HobbyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/security/Config.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/resources/db/changelog/core.changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/resources/db/changelog/init.changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/resources/db/changelog/db.changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/resources/db/changelog/db.changelog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690743482010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added liquibase and log4j">
+      <created>1691005731922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691005731922</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added liquibase and log4j" />
+    <option name="LAST_COMMIT_MESSAGE" value="added liquibase and log4j" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

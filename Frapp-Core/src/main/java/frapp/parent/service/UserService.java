@@ -9,6 +9,7 @@ import frapp.parent.entity.User;
 import frapp.parent.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -16,11 +17,12 @@ import java.util.Set;
 import java.util.UUID;
 
 @Service
+@AllArgsConstructor
 public class UserService {
 
 
     private UserRepository userRepository;
-
+    private PasswordEncoder passwordEncoder;
     public UserDTO create(UserDTO userDTO) {
         var user = convertDTOtoUser(userDTO);
         user = save(user);
@@ -38,14 +40,14 @@ public class UserService {
 
 
 
-    private static UserDTO convertUserToDTO(User user) {
+    private  UserDTO convertUserToDTO(User user) {
         UserDTO userDTO = new UserDTO();
         userDTO.setUserId(user.getUserId());
         userDTO.setUserName(user.getUserName());
         userDTO.setFirstName(user.getFirstName());
         userDTO.setLastName(user.getLastName());
         userDTO.setEmail(user.getEmail());
-        userDTO.setPassword(user.getPassword());
+        userDTO.setPassword(passwordEncoder.encode(user.getPassword()));
         userDTO.setCreatedTime(user.getCreatedTime());
 
         Set<HobbyDTO> hobbiesDTO = new HashSet<>();

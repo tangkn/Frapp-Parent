@@ -26,6 +26,7 @@ public class User {
     private Timestamp createdTime;
     private boolean isDeleted;
     private String gender;
+    private String roles;
 
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(

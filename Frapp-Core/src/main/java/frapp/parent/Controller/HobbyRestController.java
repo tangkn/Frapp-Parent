@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("api/hobby")
+@RequestMapping("api/portal/hobby")
 public class HobbyRestController {
     @Autowired
     private HobbyService hobbyService;

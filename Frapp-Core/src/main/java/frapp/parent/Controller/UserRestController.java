@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.UUID;
 
 @Controller
-@RequestMapping("api/users")
+@RequestMapping("api/portal/users")
 public class UserRestController {
     private UserService userService;
 
@@ -26,5 +26,7 @@ public class UserRestController {
     public RestResponse<UserDTO> getUserById(UUID userId) {
         return RestResponseUtils.success(userService.getUserById(userId));
     }
+
+
 
 }
