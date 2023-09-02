@@ -2,6 +2,7 @@ package frapp.parent.service;
 
 import frapp.parent.entity.Hobby;
 import frapp.parent.repository.HobbyRepository;
+import lombok.AllArgsConstructor;
 import lombok.NonNull;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,6 +13,7 @@ import java.util.List;
 import java.util.UUID;
 
 @Service
+@AllArgsConstructor
 public class HobbyService {
 
     @Autowired
