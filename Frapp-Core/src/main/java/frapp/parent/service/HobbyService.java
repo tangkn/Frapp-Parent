@@ -15,7 +15,7 @@ import java.util.UUID;
 public class HobbyService {
 
     @Autowired
-    private HobbyRepository hobbyRepository;
+    private HobbyRepository hobbyRepository;//--
 
     Logger logger = LogManager.getLogger();
 
