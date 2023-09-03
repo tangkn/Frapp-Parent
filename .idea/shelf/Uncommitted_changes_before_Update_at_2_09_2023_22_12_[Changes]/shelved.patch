@@ -1,0 +1,48 @@
+Index: Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java b/Frapp-Core/src/main/java/frapp/parent/controller/HobbyRestController.java
+rename from Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java
+rename to Frapp-Core/src/main/java/frapp/parent/controller/HobbyRestController.java
+--- a/Frapp-Core/src/main/java/frapp/parent/Controller/HobbyRestController.java	
++++ b/Frapp-Core/src/main/java/frapp/parent/controller/HobbyRestController.java	
+@@ -1,4 +1,4 @@
+-package frapp.parent.Controller;
++package frapp.parent.controller;
+ 
+ import frapp.parent.common.RestResponse;
+ import frapp.parent.common.RestResponseUtils;
+Index: Frapp-Core/src/main/java/frapp/parent/Controller/HomeRestController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Frapp-Core/src/main/java/frapp/parent/Controller/HomeRestController.java b/Frapp-Core/src/main/java/frapp/parent/controller/HomeRestController.java
+rename from Frapp-Core/src/main/java/frapp/parent/Controller/HomeRestController.java
+rename to Frapp-Core/src/main/java/frapp/parent/controller/HomeRestController.java
+--- a/Frapp-Core/src/main/java/frapp/parent/Controller/HomeRestController.java	
++++ b/Frapp-Core/src/main/java/frapp/parent/controller/HomeRestController.java	
+@@ -1,4 +1,4 @@
+-package frapp.parent.Controller;
++package frapp.parent.controller;
+ 
+ import org.springframework.web.bind.annotation.GetMapping;
+ import org.springframework.web.bind.annotation.RequestMapping;
+Index: Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java b/Frapp-Core/src/main/java/frapp/parent/controller/UserRestController.java
+rename from Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java
+rename to Frapp-Core/src/main/java/frapp/parent/controller/UserRestController.java
+--- a/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java	
++++ b/Frapp-Core/src/main/java/frapp/parent/controller/UserRestController.java	
+@@ -1,4 +1,4 @@
+-package frapp.parent.Controller;
++package frapp.parent.controller;
+ 
+ import frapp.parent.common.RestResponse;
+ import frapp.parent.common.RestResponseUtils;
