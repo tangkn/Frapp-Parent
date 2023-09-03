@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment="added spring security.">
+    <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment=" some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/FrappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/FrappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frapp-ui/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +69,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/TAN/IntellijIdea WorkSpace/Frapp-Parent/Frapp-Core/src/main/java/frapp/parent",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TAN/IntellijIdea WorkSpace/Frapp-Parent&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TAN\IntellijIdea WorkSpace\Frapp-Parent\Frapp-Core\src\main\resources\db\changelog" />
       <recent name="C:\Users\TAN\IntellijIdea WorkSpace\Frapp-Parent\Frapp-Core\src\main\java\frapp\parent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693386654471</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add security annotation">
+      <created>1693387067726</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693387067726</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" some changes">
+      <created>1693682053689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693682053689</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,20 +183,27 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added liquibase and log4j" />
     <MESSAGE value="added spring security." />
-    <option name="LAST_COMMIT_MESSAGE" value="added spring security." />
+    <MESSAGE value="Add security annotation" />
+    <MESSAGE value=" some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value=" some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/controller/HobbyRestController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/controller/UserRestController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
