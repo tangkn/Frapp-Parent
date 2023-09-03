@@ -1,8 +1,10 @@
-package frapp.parent.Controller;
+package frapp.parent.controller;
 
 import frapp.parent.common.RestResponse;
 import frapp.parent.common.RestResponseUtils;
+import frapp.parent.dto.LoginDTO;
 import frapp.parent.dto.UserDTO;
+import frapp.parent.exception.FrapException;
 import frapp.parent.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,6 +29,9 @@ public class UserRestController {
         return RestResponseUtils.success(userService.getUserById(userId));
     }
 
-
+    @GetMapping("/login")
+    public RestResponse<LoginDTO> login(@RequestBody LoginDTO loginDTO) throws FrapException {
+        return RestResponseUtils.success(userService.login(loginDTO));
+    }
 
 }

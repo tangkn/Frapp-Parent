@@ -1,27 +1,58 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Container, Row, Col, Card, Form, Button, Image } from 'react-bootstrap';
+import 'animate.css';
+import LoginService from "../service/LoginService";
+
 
 function Login() {
+       //TODO: Create data models and Route System.
+   const [user, setUser]= useState({
+    userName:"",
+    password:""
+
+   });
+
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setUser((prevUser) => ({
+        ...prevUser,
+        [name]: value,
+      }));
+    };
+
+    const userLogin = (e)=>{
+    e.preventDefault();
+    LoginService.loginUser(user)
+    .then((response)=>{
+    console.log(response)
+    }).catch((error)=>{
+    console.log(error)
+    });
+    };
   return (
-      <Row className="container-fluid">
-        <Col className="container-fluid m-4">
-          <Image className="vh-100 w-100" src="./img/loginpage.jpg" alt="Resim Açıklaması" fluid />
+      <Row className="fluid">
+        <Col className="container-fluid">
+          <Image className="animate__animated animate__bounce vh-100 w-100" src="./img/loginpage.jpg" alt="Resim Açıklaması" fluid />
         </Col>
         <Col>
-          <Row className="vh-100 align-items-center">
-              <div className="container-fluid border border-3 border-primary"></div>
-              <Card className="shadow">
-                <Card.Body container-fluid>
-                  <div className="mb-3 mt-md-4">
-                    <h2 className="fw-bold mb-2 text-uppercase align-item-center ">FRAPP</h2>
+          <Row>
+              <Card className="vh-100">
+                <Card.Body>
+                  <div className="mt-5">
+                    <h2 className="fw-bold mb-2 text-uppercase text-primary">FRAPP</h2>
                     <p className=" mb-5">Please enter your login and password!</p>
                     <div id="logg" className="mb-3">
-                      <Form>
+                      <Form className="w-75 ">
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                           <Form.Label className="text-center">
                             User Name
                           </Form.Label>
-                          <Form.Control type="input" placeholder="Enter email" />
+                          <Form.Control
+                          name="userName"
+                            value={user.userName}
+                            onChange={(e) => handleChange(e)}
+                            type="input"
+                            placeholder="Enter email" />
                         </Form.Group>
 
                         <Form.Group
@@ -29,7 +60,13 @@ function Login() {
                           controlId="formBasicPassword"
                         >
                           <Form.Label>Password</Form.Label>
-                          <Form.Control type="password" placeholder="Password" />
+                          <Form.Control
+                            name="password"
+                            value={user.password}
+                            onChange={(e) => handleChange(e)}
+                            type="password"
+                            placeholder="Password"
+                            />
                         </Form.Group>
                         <Form.Group
                           className="mb-3"
@@ -42,7 +79,9 @@ function Login() {
                           </p>
                         </Form.Group>
                         <div className="d-grid">
-                          <Button variant="primary" type="submit">
+                          <Button
+                           onClick={userLogin}
+                           variant="primary" type="submit">
                             Login
                           </Button>
                         </div>

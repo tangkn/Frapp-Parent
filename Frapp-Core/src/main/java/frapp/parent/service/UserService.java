@@ -3,12 +3,16 @@ package frapp.parent.service;
 
 
 import frapp.parent.dto.HobbyDTO;
+import frapp.parent.dto.LoginDTO;
 import frapp.parent.dto.UserDTO;
 import frapp.parent.entity.Hobby;
 import frapp.parent.entity.User;
+import frapp.parent.exception.FrapException;
+import frapp.parent.exception.FrapExceptions;
 import frapp.parent.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
+import org.apache.logging.log4j.core.util.PasswordDecryptor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -23,6 +27,7 @@ public class UserService {
 
     private UserRepository userRepository;
     private PasswordEncoder passwordEncoder;
+    private PasswordDecryptor passwordDecryptor;
     public UserDTO create(UserDTO userDTO) {
         var user = convertDTOtoUser(userDTO);
         user = save(user);
@@ -98,5 +103,18 @@ public class UserService {
         hobby.setHobbyName(hobbyDTO.getHobbyName());
         hobby.setHobbyDescription(hobbyDTO.getHobbyDescription());
         return hobby;
+    }
+
+    public LoginDTO login(LoginDTO loginDTO) throws FrapException {
+
+        var user = userRepository.findByName(loginDTO.getUserName());
+        if (!user.isPresent()){
+            throw FrapExceptions.USER_NOT_FOUND_EXCEPTION;
+        }
+        if(passwordDecryptor.decryptPassword(loginDTO.getPassword()).equals(user.get().getPassword())){
+            throw FrapExceptions.WRONG_USER_PASSWORD;
+        }
+
+        return loginDTO;
     }
 }
