@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.logging.log4j.core.config.plugins.validation.constraints.Required;
 
 import java.util.HashSet;
 import java.util.List;
@@ -18,7 +19,7 @@ import java.util.UUID;
 public class Hobby {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "hobby_ıd", nullable = false)
+    @Column(name = "hobby_id")
     private UUID hobbyId;
     @Column(name = "hobby_name")
     private String hobbyName;
