@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145ae0f0-9704-4d47-825f-a05b65aec62c" name="Changes" comment="added login page">
-      <change afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/dto/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frapp-ui/src/service/LoginService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_09_2023_22_12_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_09_2023_22_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_09_2023_22_12__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_09_2023_22_12__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/Controller/UserRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/exception/FrapExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/exception/FrapExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frapp-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frapp-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frapp-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frapp-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frapp-ui/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frapp-ui/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/FrappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/FrappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/common/RestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/common/RestResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Hobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/entity/Hobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/service/HobbyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Rf8RqCYmVUY8ZUeV3xgYF2w33p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,12 +59,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/TAN/IntellijIdea WorkSpace/Frapp-Parent",
+    "last_opened_file_path": "C:/Users/gokha/IdeaProjects/untitled",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -98,6 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FrappApplication" />
@@ -113,6 +125,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687629771724</updated>
+      <workItem from="1697313747504" duration="451000" />
+      <workItem from="1697314220450" duration="1011000" />
+      <workItem from="1697395595995" duration="1403000" />
+      <workItem from="1697883909743" duration="2895000" />
+      <workItem from="1697917136552" duration="413000" />
+      <workItem from="1697999554326" duration="7000" />
+      <workItem from="1698083112392" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1690743092814</created>
@@ -180,6 +199,9 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -207,11 +229,6 @@
           <url>file://$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/controller/HobbyRestController.java</url>
           <line>24</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Frapp-Core/src/main/java/frapp/parent/controller/UserRestController.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
